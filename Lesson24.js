@@ -56,7 +56,7 @@ console.log(groupAutoByYear);
 var filterAutoByYear = _.filter(colectionAuto, function (value) {
     return +value.productionYear > 2010;
 });
-var dateFilter = '2010';
+var dateFilter = prompt('Введыть рік випуску авто для вибору','');
 //console.log(filterAutoByYear);
 textHTML = '';
 _.each(filterAutoByYear, function (data) {
